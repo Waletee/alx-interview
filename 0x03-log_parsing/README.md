@@ -1,9 +1,10 @@
-##0x03. Log Parsing
+## 0x03. Log Parsing
 
 Algorithm, Python
 
 
-##Requirements
+## Requirements
+
 General
 Allowed editors: vi, vim, emacs
 All your files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
@@ -14,7 +15,8 @@ Your code should use the PEP 8 style (version 1.7.x)
 All your files must be executable
 The length of your files will be tested using wc
 
-##Tasks
+## Tasks
+
 0. Log parsing
 
 Write a script that reads stdin line by line and computes metrics:
@@ -30,7 +32,8 @@ format: <status code>: <number>
 status codes should be printed in ascending order
 WARNING: In this sample, you will have random value - it’s normal to not have the same output as this one.
 
-##Testing
+### Testing
+
 alexa@ubuntu:~/0x03-log_parsing$ cat 0-generator.py
 #!/usr/bin/python3
 import random
