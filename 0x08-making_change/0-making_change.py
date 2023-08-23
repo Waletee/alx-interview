@@ -1,8 +1,12 @@
 #!/usr/bin/python3
-''' determining the fewest number of coins needed to meet a given amount total '''
+""" determining the fewest number of coins needed to meet a given amount total """
+
 
 def makeChange(coins, total):
-    ''' Return fewest number of coins '''
+    """ 
+    Return fewest number of coins 
+    """
+    
     if total <= 0:
         return 0
     
