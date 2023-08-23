@@ -7,15 +7,15 @@ def makeChange(coins, total):
         return 0
     
     coins.sort(reverse=True)
-    Addition = 0
+    addition = 0
     a = 0
     count = 0
     no_of_coins = len(coins)
-    while Addition < total and a < no_of_coins:
-        while coins[a] <= total - Addition:
-            Addition += coins[a]
+    while addition < total and a < no_of_coins:
+        while coins[a] <= total - addition:
+            addition += coins[a]
             count += 1
-            if Addition == total:
+            if addition == total:
                 return count
-            a += 1
+        a += 1
     return -1
