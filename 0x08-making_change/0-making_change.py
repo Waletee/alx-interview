@@ -11,10 +11,12 @@ def makeChange(coins, total)
     a = 0
     count = 0
     no_of_coins = len(coins)
-    while sum < total and a < no_of_coins:
+
+    while Addition < total and a < no_of_coins:
         while coins[a] <= total - Addition:
             Addition += coins[a]
             count += 1
-            if sum == total:
+            if Addition == total:
                 return count
+        a += 1
     return -1
